@@ -3,7 +3,7 @@ var randNum = Math.round(Math.exp(Math.random()*Math.log(100-0+1)));
 
 		var userClick = "";
 
-		do {
+		
 
 		$(document).ready(function() {
 
@@ -27,8 +27,8 @@ var randNum = Math.round(Math.exp(Math.random()*Math.log(100-0+1)));
 
 			});
 		});
-		}
-		while (userClick != randNum);			
+		
+				
 				
 
 			/*generate new random number each on button click */
