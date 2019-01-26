@@ -8,7 +8,7 @@ var randNum = Math.round(Math.exp(Math.random()*Math.log(100-0+1)));
 		$(document).ready(function() {
 
 		    $('#promptUser').on('click', function(e){
-				e.preventDefault;
+				
 
 			userClick = $('#inUserClick').val();
 			console.log("User Score:" + userScore);
